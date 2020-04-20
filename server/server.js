@@ -7,9 +7,9 @@ const { CLIENT_ORIGIN } = require('./config')
 const app = express()
 
 cloudinary.config({
-  cloud_name: your_cloud_name,
-  api_key: your_cloud_key,
-  api_secret: your_cloud_secret,
+  cloud_name: process.env.CLOUD_NAME,
+  api_key: process.env.API_KEY,
+  api_secret: process.env.API_SECRET,
 })
 
 app.use(cors({
