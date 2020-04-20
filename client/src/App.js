@@ -21,7 +21,6 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    console.log(API_URL, 'API_URL')
     fetch(`${API_URL}/get-up`)
       .then(res => {
         if (res.ok) {
