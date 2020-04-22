@@ -17,4 +17,12 @@ You can sign up with Cloudinary [here](https://cloudinary.com/users/register/fre
 CLOUD_NAME=your_cloud_name
 API_KEY=your_cloud_key
 API_SECRET=your_cloud_secret
+
+All are in String form 
+```
+
+### Note
+```shell
+please add your cloud name in CropImage component to run the projct
+<CloudinaryContext cloudName=your cloud name></CloudinaryContext>
 ```
